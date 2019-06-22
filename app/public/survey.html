@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> FriendFinder Survey || Dane Shrewsbury </title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- Chosen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2> Survey Questions </h1>
+            <hr>
+
+            <h2><strong> About You </strong></h2>
+            <hr>
+
+            <h3> Name (Required) </h3>
+            <input type="text" id="name" class="form-control" required>
+
+            <h3> Link to Photo Image (Required) </h3>
+            <input type="text" id="photo" class="form-control" required>
+            <hr>
+
+            <h3><strong>Question 1</strong></h3>
+            <h4> You enjoy going out to sporting events with friends. </h4>
+            <select class="chosen-select" id="q1">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h3><strong>Question 2</strong></h3>
+            <h4> You prefer watching sporting events from home. </h4>
+            <select class="chosen-select" id="q2">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h3><strong>Question 3</strong></h3>
+            <h4> On nice days, you enjoy going out on a hike. </h4>
+            <select class="chosen-select" id="q3">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h3><strong>Question 4</strong></h3>
+            <h4> Michael Jordan is the true GOAT of basketball. </h4>
+            <select class="chosen-select" id="q4">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h3><strong>Question 5</strong></h3>
+            <h4> You are a dog person. </h4>
+            <select class="chosen-select" id="q5">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h3><strong>Question 6</strong></h3>
+            <h4> Skiing is superior to snowboarding. </h4>
+            <select class="chosen-select" id="q6">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h3><strong>Question 7</strong></h3>
+            <h4> You tend to finish projects before starting new projects.  </h4>
+            <select class="chosen-select" id="q7">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h3><strong>Question 8</strong></h3>
+            <h4> In a discussion, truth should be more important than people’s sensitivities. </h4>
+            <select class="chosen-select" id="q8">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h3><strong>Question 9</strong></h3>
+            <h4> You prefer large groups of people instead of small groups of close friends. </h4>
+            <select class="chosen-select" id="q9">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h3><strong>Question 10</strong></h3>
+            <h4> You tend to stay calm in moments of stress. </h4>
+            <select class="chosen-select" id="q10">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <br>
+            <br>
+
+
+            <footer class="footer">
+                <div class="container">
+                    <p><a href="/api/friends">API Friends List</a> | <a
+                            href="https://github.com/DaneShrewsbury2288/FriendFinder">GitHub Repo</a></p>
+                </div>
+            </footer>
+
+    </div>
+
+    <script type="text/javascript">
+
+    </script>
+
+</body>
+
+</html>
